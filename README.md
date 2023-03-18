@@ -9,6 +9,7 @@
   </p>
   
   -  It's a travel agency manager, who has a secure login that admites two types of users: sellers and admins.
+    
     - Sellers has only access to customers and sales data and their respective CRUD actions
     - Admins has complete access to all CRUD sections, wich are: employees, customers, services, packages and sales, 
       as well as check for the earns balance for a given period of time in that respective section.
