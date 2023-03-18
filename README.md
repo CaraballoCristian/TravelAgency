@@ -39,7 +39,8 @@
 #
 
 ## Connection Data: 
-Tomcat connection data:
+Tomcat data:
+- version: **10.xx**
 - user: **admin**
 - contraseña: **1234**
 
@@ -47,3 +48,5 @@ Data Base:
 - DB name: **agency**
 - username: **root**
 - password: **(empty)**
+
+## Important!: Tomcat version 10+. javax library has been replaced by jakarta in all servlets.
