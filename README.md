@@ -7,7 +7,7 @@
 
 ## About:
   <p>
-    This is the "on steroids" version of the final project from Polotic's "Full Stack with Java" bootcamp.
+    This is the "on steroids" version of the final project from Polotic's "Full Stack with Java" bootcamp built on MVC architecture.
   </p>
   
 - It's a travel agency manager, who has a secure login that admites two types of users:
