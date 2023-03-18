@@ -40,10 +40,10 @@
 
 ## Connection Data: 
 Tomcat connection data:
-user: **admin**
-contraseña: **1234**
+- user: **admin**
+- contraseña: **1234**
 
 Data Base:
-name: **agency**
-user: **root**
-password: **(empty)**
+- DB name: **agency**
+- username: **root**
+- password: **(empty)**
