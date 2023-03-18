@@ -107,12 +107,11 @@ public class SvEmployee extends HttpServlet {
                 String birthdate = request.getParameter("birthdate");
                 if(!request.getParameter("salary").isEmpty()) salary = Double.parseDouble(request.getParameter("salary"));
                 String hireDate = request.getParameter("hireDate");
-                String endDate = request.getParameter("endDate");
                 String username = request.getParameter("username");
                 String password = request.getParameter("password");
                 String admin = request.getParameter("admin");
                 
-                control.createEmployee(name, lastName, dni, phone, email, nationality, address, birthdate, salary, hireDate, endDate, username, password, admin);
+                control.createEmployee(name, lastName, dni, phone, email, nationality, address, birthdate, salary, hireDate, username, password, admin);
                 
                 mySession.setAttribute("res", "Success");
                 

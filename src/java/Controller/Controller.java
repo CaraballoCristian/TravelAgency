@@ -153,7 +153,7 @@ public class Controller {
         return model.readEmployee(id);
     }
     
-    public void createEmployee(String name, String lastName, long dni, String phone, String email, String nationality, String address, String birthdate, double salary, String hireDate, String endDate, String username, String password, String admin) throws ParseException, Exception{
+    public void createEmployee(String name, String lastName, long dni, String phone, String email, String nationality, String address, String birthdate, double salary, String hireDate, String username, String password, String admin) throws ParseException, Exception{
         
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 
@@ -161,7 +161,7 @@ public class Controller {
         if(!birthdate.isEmpty()) dt = sdf.parse(birthdate);
         
         Date hdt = null;
-        if(!hireDate.isEmpty()) hdt = sdf.parse(birthdate);
+        if(!hireDate.isEmpty()) hdt = sdf.parse(hireDate);
         
         
         boolean ad = false;
@@ -200,7 +200,7 @@ public class Controller {
         if(!birthdate.isEmpty()) dt = sdf.parse(birthdate);
         
         Date hdt = null;
-        if(!hireDate.isEmpty()) hdt = sdf.parse(birthdate);
+        if(!hireDate.isEmpty()) hdt = sdf.parse(hireDate);
                 
         Employee emp = model.readEmployee(id);
         
