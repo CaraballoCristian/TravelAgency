@@ -22,7 +22,7 @@
 
 ## Technologies:
 <p>
-  Thechnologies, libraries and Tools:
+  Technologies, libraries and Tools:
 </p>
 
 -  HTML
