@@ -3,7 +3,7 @@ export function validateForms(){
     
     
     const regexPatterns = {
-        name: /^[a-z\s]{4,15}$/i,
+        name: /^[a-z\s\d]{4,15}$/i,
         lastname: /^[a-z\s]{4,15}$/i,
         dni: /^[\d]{8,9}$/i,
         phone:/^[\d\s\+()]{8,20}$/i,
