@@ -28,6 +28,7 @@
 -  HTML
 -  CSS
 -  JAVASCRIPT
+-  GSAP
 -  JAVA
 -  JPA
 -  JSTL
