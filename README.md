@@ -1,7 +1,7 @@
 # Travel Agency
 
 ## Overview:
-  https://youtu.be/s2xtwUXzLRc
+  ![Demo Video](https://youtu.be/s2xtwUXzLRc)
 
 #
 
