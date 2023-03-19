@@ -44,11 +44,11 @@ https://user-images.githubusercontent.com/81972841/226146878-f1ca392b-b687-4659-
 Tomcat data:
 - version: **10.xx**
 - user: **admin**
-- contraseña: **1234**
+- contraseña: **12345**
 
 Data Base:
 - DB name: **agency**
 - username: **root**
 - password: **(empty)**
 
-## Important!: Tomcat version 10+. javax library has been replaced by jakarta in all servlets.
+## Important!: Only working with Tomcat version 10+. javax library has been replaced by jakarta in all servlets.
