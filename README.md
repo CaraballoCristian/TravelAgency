@@ -43,8 +43,6 @@ https://user-images.githubusercontent.com/81972841/226146878-f1ca392b-b687-4659-
 ## Connection Data: 
 Tomcat data:
 - version: **10.xx**
-- user: **admin**
-- contraseña: **12345**
 
 Data Base:
 - DB name: **agency**
